@@ -1,8 +1,7 @@
 #!/bin/bash
 
-git add ~/berichte
-git add ~/berichte26
+git add /3AHITS-ITSE-Hintringer-Samuel
 
-git stage ~/3AHITS-ITSE-Hintringer-Samuel
+git stage ../
 
 git commit -m "update"
