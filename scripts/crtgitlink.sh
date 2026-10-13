@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 reponame="$(git config --get remote.origin.url | rev | cut -d/ -f1 | rev | cut -d. -f1)"
-link="https://samuelhintringer.github.io/$reponame/berichte/"
+link="https://samuelhintringer.github.io/$reponame/berichte26/"
 
 {
 for b in $(ls 2*.md)

@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-cat << EOF > $(date +"%y%m%d").md
+datum=$(date +"%y%m%d")
+cd ~/berichte26
+
+cat << EOF > $datum.md
 # Arbeitsbericht
 
 - Name: Samuel Hintringer
