@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-datum=$(date +"%y%m%d")
-cd ~/berichte26
+datum=$(date +"%Y%m%d")
+cd berichte
 
 cat << EOF > $datum.md
 # Arbeitsbericht
@@ -10,7 +10,6 @@ cat << EOF > $datum.md
 - Fach: ITSI-Übunugen
 - Datum: $(date +"%d.%m.%Y")
 - Klasse: 2AHITS
-- Thema: $1
-- Aufgaben: $2
-- Source: $3
+- Aufgaben: $1
+- Source: $2
 EOF
