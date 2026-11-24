@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
-datum=$(date +"%Y%m%d")
-cd ../berichte
+cd /workspaces/3AHITS-ITSE-Hintringer-Samuel/berichte
 
-cat << EOF > $datum.md
+#Berichtname
+bericht=$(date +"%Y%m%d")
+
+#Bericht
+cat << EOF > $bericht.md
 # Arbeitsbericht
 
 - Name: Samuel Hintringer
@@ -13,3 +16,7 @@ cat << EOF > $datum.md
 - Aufgaben: $1
 - Source: $2
 EOF
+
+#Bilderordner
+cd img
+mkdir $bericht
