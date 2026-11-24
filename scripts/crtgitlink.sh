@@ -4,7 +4,7 @@ reponame="$(git config --get remote.origin.url | rev | cut -d/ -f1 | rev | cut -
 link="https://samuelhintringer.github.io/$reponame/berichte/"
 
 {
-for b in $(ls 2*.md)
+for b in $(ls ../2*.md)
 do
 	echo -e $link${b/md/html}"\n"
 done
