@@ -19,4 +19,4 @@ EOF
 
 #Bilderordner
 cd img
-mkdir $bericht
+mkdir $bericht 2>/dev/null   
