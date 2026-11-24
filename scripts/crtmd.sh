@@ -9,7 +9,7 @@ cat << EOF > $datum.md
 - Name: Samuel Hintringer
 - Fach: ITSI-Übunugen
 - Datum: $(date +"%d.%m.%Y")
-- Klasse: 2AHITS
+- Klasse: 3AHITS
 - Aufgaben: $1
 - Source: $2
 EOF
