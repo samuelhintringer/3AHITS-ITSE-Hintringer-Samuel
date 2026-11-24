@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ..
+cd /workspaces/3AHITS-ITSE-Hintringer-Samuel/
 
 git pull
 git add .

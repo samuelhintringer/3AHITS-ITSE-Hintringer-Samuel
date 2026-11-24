@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 datum=$(date +"%Y%m%d")
-cd berichte
+cd ../berichte
 
 cat << EOF > $datum.md
 # Arbeitsbericht
