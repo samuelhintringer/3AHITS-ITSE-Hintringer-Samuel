@@ -10,7 +10,7 @@ cat << EOF > $bericht.md
 # Arbeitsbericht
 
 - Name: Samuel Hintringer
-- Fach: ITSI-Übunugen
+- Fach: ITSE-Übunugen
 - Datum: $(date +"%d.%m.%Y")
 - Klasse: 3AHITS
 - Aufgaben: $1
